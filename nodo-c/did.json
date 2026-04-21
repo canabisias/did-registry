@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:canabisias.github.io:did-registry:nodo-c",
+  "verificationMethod": [
+    {
+      "id": "did:web:canabisias.github.io:did-registry:nodo-c#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:canabisias.github.io:did-registry:nodo-c",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "dBzsrTA974yCN46HGNeCZwDXgy-Cs4xeym5QIikSc6I",
+        "y": "j-m6gHIPY2UhpAanApY8TjkVlDgj0xvqbQYJQhRYiHI"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:canabisias.github.io:did-registry:nodo-c#key-1"
+  ],
+  "assertionMethod": [
+    "did:web:canabisias.github.io:did-registry:nodo-c#key-1"
+  ],
+  "service": [
+    {
+      "id": "did:web:canabisias.github.io:did-registry:nodo-c#credential-service",
+      "type": "CredentialService",
+      "serviceEndpoint": "http://nginx-nodo-c/api/presentation/v1"
+    }
+  ]
+}
