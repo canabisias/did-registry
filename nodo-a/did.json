@@ -27,7 +27,7 @@
     {
       "id": "did:web:canabisias.github.io:did-registry:nodo-a#credential-service",
       "type": "CredentialService",
-      "serviceEndpoint": "http://nginx-nodo-a/api/presentation/v1"
+      "serviceEndpoint": "http://nginx-nodo-a/api/presentation/v1/participants/ZGlkOndlYjpjYW5hYmlzaWFzLmdpdGh1Yi5pbzpkaWQtcmVnaXN0cnk6bm9kby1h"
     }
   ]
 }
