@@ -12,8 +12,8 @@
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "P-256",
-        "x": "a3SOfkRnokUzVsACsplmUlCydnDYMNcBn1618bT2NY4",
-        "y": "Crn-93q-lGyzudBVGiMR98ZQK9iqMJAXDva9iU8b6SQ"
+        "x": "_J7pBW92nUB0XrchubdlQHeaQqosxXp7SdXfz74Dss4",
+        "y": "50d4xyuHFqM_XAqWxir3xHyj3gKVGNuMpCoMqBTbpjM"
       }
     }
   ],
@@ -27,7 +27,7 @@
     {
       "id": "did:web:canabisias.github.io:did-registry:nodo-c#credential-service",
       "type": "CredentialService",
-      "serviceEndpoint": "http://nginx-nodo-c/api/presentation/v1/participants/ZGlkOndlYjpjYW5hYmlzaWFzLmdpdGh1Yi5pbzpkaWQtcmVnaXN0cnk6bm9kby1j"
+      "serviceEndpoint": "http://nginx-edc/nodo-c/api/presentation/v1/participants/ZGlkOndlYjpjYW5hYmlzaWFzLmdpdGh1Yi5pbzpkaWQtcmVnaXN0cnk6bm9kby1j"
     }
   ]
 }
