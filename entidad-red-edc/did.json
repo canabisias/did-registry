@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:canabisias.github.io:did-registry:entidad-red-edc",
+  "verificationMethod": [
+    {
+      "id": "did:web:canabisias.github.io:did-registry:entidad-red-edc#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:canabisias.github.io:did-registry:entidad-red-edc",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "cnmrUMcTDtOG1H7PB1QDm1b-YdG5kpntR9SYn1rAW6w",
+        "y": "mlTwAQKiQGRbY_YpBEF8IgXGFXqXPiTFATLMtt81Vms"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:canabisias.github.io:did-registry:entidad-red-edc#key-1"
+  ],
+  "assertionMethod": [
+    "did:web:canabisias.github.io:did-registry:entidad-red-edc#key-1"
+  ],
+  "service": [
+    {
+      "id": "did:web:canabisias.github.io:did-registry:entidad-red-edc#credential-service",
+      "type": "CredentialService",
+      "serviceEndpoint": "http://nginx-edc/entidad-red-edc/api/presentation/v1/participants/ZGlkOndlYjpjYW5hYmlzaWFzLmdpdGh1Yi5pbzpkaWQtcmVnaXN0cnk6ZW50aWRhZC1yZWQtZWRj"
+    }
+  ]
+}
